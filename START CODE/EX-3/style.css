@@ -1,0 +1,17 @@
+/* TODO */
+button{
+    width: 10%;
+    height: 7vh;
+    background-color: rgb(243, 173, 185);
+    margin: 30px auto;
+    display: flex;
+    border-radius: 10px;
+    padding: 15px 45px;
+    transition: 0.5s;
+    /* align-items: center; */
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(147, 57, 72);
+    transition: 0.5s;
+}
