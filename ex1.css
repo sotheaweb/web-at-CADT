@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.container{
+    width: 50%;
+    height: 90vh;
+    margin: 30px auto;
+}
+.container .header{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(57, 135, 231);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 7px rgb(18, 18, 18);
+}
+.container .main{
+    margin-top: 2%;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main .left{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(63, 223, 149);
+    box-shadow: 0px 5px 7px black;
+}
+.left .son1{
+    width: 100%;
+    height: 12%;
+    padding: 20px;
+}
+.left .son2{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 80px;
+}
+.son2 .box{ 
+    width: 20%;
+    height: 25%;
+    background-color: green;
+    box-shadow: 0px 5px 7px black;
+}
+.main .right{
+    width: 17%;
+    height: 100%;
+    background-color: red;
+    box-shadow: 0px 5px 7px black;
+}
+.right p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.container .footer{
+    margin-top: 2%;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(12, 95, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 7px black;
+}
+
